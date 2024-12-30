@@ -1,0 +1,3 @@
+TOOLS Used in Industries for web development
+1) Figma-> web designer -> decides the UI of the project
+2) Eraser.io -> Database Modelling
