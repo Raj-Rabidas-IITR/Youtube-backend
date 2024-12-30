@@ -11,3 +11,7 @@ git bash :
 
 cd src
 mkdir controllers db middlewares models routes utils
+
+
+-> important : When work on a team
+npm i -D prettier
