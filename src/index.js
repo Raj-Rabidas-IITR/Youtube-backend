@@ -9,9 +9,18 @@ dotenv.config({
     path:'./env'
 })
 
+//database connection
+connectDB() //This will return promise as async await always gives promises
+.then(
+    ()=> {
+        app.listen(process.env.PORT|| 8000,()=>{
+        console.log(`Server is running at PORT ${process.env.PORT}`);
+    })
 
-connectDB()
-
+})
+.catch((err)=>{
+    console.log("MONGODB connection failed!!!",err);
+})
 
 
 
