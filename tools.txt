@@ -1,0 +1,25 @@
+TOOLS Used in Industries for web development
+1) Figma-> web designer -> decides the UI of the project
+2) Eraser.io -> Database Modelling
+
+# npm i nodemon -> to restart server
+# Use git for code track
+#.gitignore -> to ignore sensitive file to upload
+
+
+git bash :
+
+cd src
+mkdir controllers db middlewares models routes utils
+
+
+-> important : When work on a team
+npm i -D prettier
+
+
+npm i mongoose express dotenv
+npm i cookie-parser cors(cross origin resourse sharing)
+
+npm i mongoose-aggregate-paginate-v2
+npm i bcrypt jsonwebtoken--> to hash our passwords and protect 
+ 
