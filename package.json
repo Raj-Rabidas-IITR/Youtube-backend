@@ -19,13 +19,20 @@
     "prettier": "^3.4.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^5.1.1",
+=======
+>>>>>>> 06fecc10684c3d6226f15defcd69ae6d92f8fa3e
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+<<<<<<< HEAD
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3",
     "mongoose-aggregate-paginate-v2": "^1.1.2"
+=======
+    "mongoose": "^8.9.3"
+>>>>>>> 06fecc10684c3d6226f15defcd69ae6d92f8fa3e
   }
 }

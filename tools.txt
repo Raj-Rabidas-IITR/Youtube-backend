@@ -18,8 +18,12 @@ npm i -D prettier
 
 
 npm i mongoose express dotenv
+<<<<<<< HEAD
 npm i cookie-parser cors(cross origin resourse sharing)
 
 npm i mongoose-aggregate-paginate-v2
 npm i bcrypt jsonwebtoken--> to hash our passwords and protect 
  
+=======
+npm i cookie-parser cors(cross origin resourse sharing)
+>>>>>>> 06fecc10684c3d6226f15defcd69ae6d92f8fa3e
