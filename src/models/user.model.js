@@ -1,5 +1,5 @@
 import mongoose,{Schema} from "mongoose";
-import 
+
 
 
 const userSchema=new Schema({
@@ -57,5 +57,6 @@ const userSchema=new Schema({
 
 },{timeseries:true})
 
+userSchema.pre("save")
 
-export const User= mongoose.model("User",userSchema)
+export const User= mongoose.model("User",userSchema);
