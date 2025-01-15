@@ -18,3 +18,8 @@ npm i -D prettier
 
 npm install bcrypt
 npm install jsonwebtoken
+
+
+use cloudinary platform for file upload
+and multer package to work with files
+
