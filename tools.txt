@@ -23,3 +23,6 @@ npm install jsonwebtoken
 use cloudinary platform for file upload
 and multer package to work with files
 
+
+thunder client for api testing 
+best for api testing POSTMAN

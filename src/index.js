@@ -2,28 +2,27 @@
 import connectDB from "./db/index.js";
 
 // require('dotenv').config({path:'./env'}) OLD version
-
+// import {app} from './app.js';
 import dotenv from "dotenv";
+import express from "express"
 
 dotenv.config({
     path:'./env'
 })
 
-//database connection
-connectDB() //This will return promise as async await always gives promises
-.then(
-    ()=> {
-        app.listen(process.env.PORT|| 8000,()=>{
-        console.log(`Server is running at PORT ${process.env.PORT}`);
+// Create an Express app
+const app = express();
+
+// Database connection
+connectDB()
+    .then(() => {
+        app.listen(process.env.PORT || 8000, () => {
+            console.log(`Server is running at PORT ${process.env.PORT || 8000}`);
+        });
     })
-
-})
-.catch((err)=>{
-    console.log("MONGODB connection failed!!!",err);
-})
-
-
-
+    .catch((err) => {
+        console.log("MONGODB connection failed!!!", err);
+    });
 
 
 
