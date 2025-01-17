@@ -9,9 +9,4 @@ const storage = multer.diskStorage({
       cb(null, file.originalname) //you can update 
     }
   })
-
-
-export const upload = multer({ 
-    storage: storage
-})
-
+  export const upload = multer({ storage: storage });

@@ -4,10 +4,10 @@ import { app } from './app.js';
 // require('dotenv').config({path:'./env'}) OLD version
 // import {app} from './app.js';
 import dotenv from "dotenv";
-import express from "express"
+
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 })
 
 
